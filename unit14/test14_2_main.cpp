@@ -1,4 +1,6 @@
 #include "test14_2.h"
+#include <vector>
+using namespace std;
 int main()
 {
 	Sales_data cp5;

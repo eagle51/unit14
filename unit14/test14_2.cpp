@@ -1,7 +1,7 @@
 #include "test14_2.h"
-Sales_data::Sales_data(std::istream& is) :Sales_data()
+Sales_data::Sales_data(std::istream& is) :Sales_data()	//先委托默认构造函数构造一个临时的*this
 {
-	is >> *this;
+	is >> *this;	//operator>>(is,item);
 }
 
 Sales_data& Sales_data::operator+=(const Sales_data& rhs)
