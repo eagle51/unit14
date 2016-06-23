@@ -19,11 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="String.h" />
+    <ClInclude Include="test14_2.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="String.cpp" />
-    <ClCompile Include="test14_7.cpp" />
+    <ClCompile Include="test14_2.cpp" />
+    <ClCompile Include="test14_2_main.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{372047E8-A8E7-4442-9ECE-520FBDB0FBB1}</ProjectGuid>
